@@ -85,7 +85,3 @@ python main.py
 ##  UML Diagram
 
 See `UML.pdf` for the full class structure and relationships.
-
-##  Disclaimer
-
-This system is a **course project** and is not intended for real-world medical data use.
