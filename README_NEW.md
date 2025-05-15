@@ -27,7 +27,7 @@ Aak/
 └── README.md                 # Project documentation
 ```
 
-## ✅ Features
+## Features
 
 - User login system (Admin, Nurse, Clinician)
 - Add, retrieve, and remove patient records
@@ -35,12 +35,12 @@ Aak/
 - Count patient visits by date
 - Simple usage logging (`usage_log.csv`)
 
-## 💻 Requirements
+## Requirements
 
 - Python 3.8+
 - Packages listed in `requirements.txt`
 
-## 🔧 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -60,7 +60,7 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 ```
 
-## 🚀 How to Run
+## How to Run
 
 1. Make sure your `data/` folder contains the following files:
    - `Patient_data.csv`
@@ -75,7 +75,7 @@ python main.py
 
 3. Follow on-screen prompts for login and available actions.
 
-## 👥 User Roles
+## User Roles
 
 | Role | Capabilities |
 |------|--------------|
@@ -91,7 +91,3 @@ python main.py
 ## 📄 UML Diagram
 
 See `UML.pdf` for the full class structure and relationships.
-
-## ⚠️ Disclaimer
-
-This system is a **course project** and is not intended for actual medical data use.
