@@ -3,7 +3,7 @@
 
 This is a hospital data management system built using Python. It provides functionality for user authentication, patient record management, visit tracking, and note-taking. The project has been flattened to remove the 'src' folder for simplicity.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Aak/
@@ -26,7 +26,7 @@ Aak/
 └── README.md                 # Project documentation
 ```
 
-## ✅ Features
+## Features
 
 - User login system (Admin, Nurse, Clinician)
 - Add, retrieve, and remove patient records
@@ -34,12 +34,12 @@ Aak/
 - Count patient visits by date
 - Simple usage logging (`usage_log.csv`)
 
-## 💻 Requirements
+##  Requirements
 
 - Python 3.8+
 - Packages listed in `requirements.txt`
 
-## 🔧 Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -59,7 +59,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 1. Make sure your `data/` folder contains:
    - `Patient_data.csv`
@@ -74,7 +74,7 @@ python main.py
 
 3. Follow on-screen prompts for login and available actions.
 
-## 👥 User Roles
+##  User Roles
 
 | Role | Capabilities |
 |------|--------------|
@@ -82,10 +82,10 @@ python main.py
 | Nurse | Add, retrieve, remove patients, view patient notes |
 | Clinician | View patient notes, count visits |
 
-## 📄 UML Diagram
+##  UML Diagram
 
 See `UML.pdf` for the full class structure and relationships.
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This system is a **course project** and is not intended for real-world medical data use.
